@@ -1,0 +1,28 @@
+{
+    "name": "minions-evaluations-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Benchmarks, test cases, and prompt scoring for continuous agent improvement",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @minions-evaluations/sdk run build && pnpm --filter @minions-evaluations/cli run build && pnpm --filter minions-evaluations-docs run build && pnpm --filter minions-evaluations-blog run build && pnpm --filter minions-evaluations-web run build",
+        "deploy:blog": "pnpm --filter minions-evaluations-blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter minions-evaluations-docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter minions-evaluations-web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @minions-evaluations/sdk run test",
+        "lint": "pnpm --filter @minions-evaluations/sdk run build && pnpm --filter @minions-evaluations/sdk run lint && pnpm --filter @minions-evaluations/cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}
