@@ -1,6 +1,12 @@
 ---
 name: minions-evaluations
-description: Benchmarks, test cases, and prompt scoring for continuous agent improvement
+id: OC-0126
+version: 1.0.0
+description: "Benchmarks, test cases, and prompt scoring for continuous agent improvement"
+category: ai
+subcategory: general
+tags: ["minion", "ai", "general"]
+comments:
 ---
 
 # minions-evaluations — Agent Skills
