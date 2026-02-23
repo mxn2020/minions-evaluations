@@ -1,6 +1,6 @@
 {
   "name": "@minions-evaluations/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-evaluations — Benchmarks, test cases, and prompt scoring for continuous agent improvement",
   "license": "MIT",
   "repository": {
