@@ -1,0 +1,8 @@
+name: "@minions-evaluations/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-evaluations-workspace
+description: "Benchmarks, test cases, and prompt scoring for continuous agent improvement"
+priority: high
+deploy_url: null
+tags: null

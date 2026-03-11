@@ -1,0 +1,15 @@
+name: minions-evaluations-workspace
+project_scope: main
+project_type: monorepo
+description: "Benchmarks, test cases, and prompt scoring for continuous agent improvement"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-evaluations"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, evaluations]
+notes: null
+id: 01c373a2-3810-43f6-8a9a-6c12a6e5aea5

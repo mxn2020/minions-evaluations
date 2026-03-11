@@ -1,0 +1,8 @@
+name: minions-evaluations-docs
+project_scope: child
+child_type: docs
+parent_project: minions-evaluations-workspace
+description: Standard compliance definition for minions-evaluations-docs
+priority: high
+deploy_url: null
+tags: null

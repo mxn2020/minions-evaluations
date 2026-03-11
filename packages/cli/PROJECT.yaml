@@ -1,0 +1,8 @@
+name: "@minions-evaluations/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-evaluations-workspace
+description: "CLI for minions-evaluations — Benchmarks, test cases, and prompt scoring for continuous agent improvement"
+priority: high
+deploy_url: null
+tags: null
