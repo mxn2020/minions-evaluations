@@ -6,3 +6,4 @@ description: "Benchmarks, test cases, and prompt scoring for continuous agent im
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
